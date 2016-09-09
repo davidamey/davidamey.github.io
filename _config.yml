@@ -1,7 +1,7 @@
 # Site wide configuration
-title: Trio
+title: David Amey
 description: 'Musings'
-url: http://localhost:4000
+url: https://davidamey.github.io/
 date_format: '%d/%m/%Y'
 fort_awesome_icon: 'cog fa-spin'
 

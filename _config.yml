@@ -1,7 +1,7 @@
 # Site wide configuration
 title: David Amey
-description: 'Musings'
-url: https://davidamey.github.io/
+description: 'Musings on development, dev-ops and more'
+url: https://davidamey.github.io
 date_format: '%d/%m/%Y'
 fort_awesome_icon: 'cog fa-spin'
 
@@ -15,7 +15,7 @@ owner:
     twitter: davidamey
     linkedin: davidamey
     facebook:
-    google_plus: 
+    google_plus: DavidAmey123
     youtube:
 
 # Post sharing icons
@@ -27,31 +27,30 @@ sharing:
     reddit: true
 
 # Disqus comments configuration (leave blank to disable comments)
-disqus_shortname: ''
+disqus_shortname: 'davidamey'
 
 # Jekyll configuration
 permalink: /:year/:month/:day/:title/
-paginate: 4
+paginate: 7
 
 # Markdown
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 
-# Enable when using redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
-
 # Enable when using kramdown (you will need to use ~~~ instead of ```)
-# kramdown:
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   use_coderay: false
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
 # Gems
 gems: ['jekyll-paginate']
 
 # Exclude
-exclude: ['README.md']
+exclude: [
+  'README.md',
+  'create-favicon.sh'
+]
 

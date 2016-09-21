@@ -4,6 +4,7 @@ title: "Welcome to Jekyll!"
 date: 2016-09-10 20:40:00 +0100
 logo: birthday-cake
 categories: general
+tags: [ jekyll ]
 ---
 
 Since reading a [post by Scott Hanselman](http://www.hanselman.com/blog/YourWordsAreWasted.aspx), creating a blog has been a distant goal. Granted it's taken me a little over 4 years but the lure of playing with [Jekyll](https://jekyllrb.com/) and its GitHub integration finally got me there.
